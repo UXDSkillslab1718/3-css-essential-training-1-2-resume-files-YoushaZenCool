@@ -1,0 +1,43 @@
+/* Color Palette
+light Gray : #D0CCD0;
+White      : #FBFEFF;
+Blue       : #529FC3;
+Dark Blue  : #155269;
+Light Green: #86C4BD;
+*/
+
+/* Global Styles
+-------------------------*/
+body {
+
+}
+
+a {
+color: #E61926
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #15695C;
+  color: #3C3C3C;
+}
+
+header h1, header h2 {
+  color: #A7E3FA;
+}
+/* Work Experience
+-------------------------*/
+.work {
+  background: #529FC3;
+}
+
+/* Education
+-------------------------*/
+.education {
+background: #86C4BD;
+}
