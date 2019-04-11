@@ -5,29 +5,42 @@ Blue       : #529FC3;
 Dark Blue  : #155269;
 Light Green: #86C4BD;
 */
-
 /* Global Styles
 -------------------------*/
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
+
 h1, h2 {
   font-family: 'Caveat', cursive;
-   font-weight: 400;
+  font-weight: 400;
 }
+
 h1 {
   font-size: 80px;
 }
-h2 { 
+
+h2 {
   font-size: 40px;
+  margin-top: 0;
 }
+
 a {
-color: #E61926
+  color: #E61926
 }
 
 a:hover {
   text-decoration: none;
 }
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
 
 /* Header and Footer
 -------------------------*/
@@ -35,9 +48,21 @@ header, footer {
   background: #15695C;
   color: #3C3C3C;
 }
-
+/* header */
 header h1, header h2 {
   color: #A7E3FA;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  background: white;
+  padding: 40px;
+  display: inline-block;
+
 }
 /* Work Experience
 -------------------------*/
@@ -48,5 +73,5 @@ header h1, header h2 {
 /* Education
 -------------------------*/
 .education {
-background: #86C4BD;
+  background: #86C4BD;
 }
