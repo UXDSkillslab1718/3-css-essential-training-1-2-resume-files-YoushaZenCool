@@ -53,6 +53,14 @@ header h1, header h2 {
   color: #A7E3FA;
 }
 
+header {
+  text-align: center;
+}
+.profile-img {
+  width: 300px;
+  border-radius: 15px;
+}
+
 /* footer */
 footer {
   text-align: center;
