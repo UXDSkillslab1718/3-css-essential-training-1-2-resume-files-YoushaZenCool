@@ -1,0 +1,173 @@
+/* Color Palette
+light Gray : #D0CCD0;
+White      : #FBFEFF;
+Blue       : #529FC3;
+Dark Blue  : #155269;
+Light Green: #86C4BD;
+*/
+/* Global Styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+a {
+  color: #E61926
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+  padding: 10px;
+  border: 1px solid black;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding: 10px;
+  border: 1px solid black;
+  min-height: 175px;
+}
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #15695C;
+  color: #3C3C3C;
+}
+/* header */
+header h1, header h2 {
+  color: #A7E3FA;
+}
+
+header {
+  text-align: center;
+}
+.profile-img {
+  border-radius: 15px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 40px;
+  display: inline-block;
+
+}
+/* Work Experience
+-------------------------*/
+.work {
+  background: #529FC3;
+}
+
+/* Education
+-------------------------*/
+.education {
+  background: #86C4BD;
+  position: relative;
+}
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/bg-rdam.jpg) no-repeat fixed;
+  background-size: cover;
+}
+/* p + h3 {
+  margin-top: 30px;
+} */
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: #313131;
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  min-width: 400px;
+  /*z-index: 100;*/
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px 15px 20px ;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.home {
+  margin-right: 212px;
+}
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
