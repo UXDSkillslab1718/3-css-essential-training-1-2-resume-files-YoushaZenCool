@@ -117,6 +117,14 @@ footer {
   background: #86C4BD;
   position: relative;
 }
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/bg-rdam.jpg) no-repeat fixed;
+  background-size: cover;
+}
+/* p + h3 {
+  margin-top: 30px;
+} */
 /* Navigation
 -------------------------*/
 nav {
