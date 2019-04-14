@@ -63,6 +63,19 @@ a:hover {
   border: 1px solid black;
   min-height: 175px;
 }
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 /* Header and Footer
 -------------------------*/
@@ -102,6 +115,7 @@ footer {
 -------------------------*/
 .education {
   background: #86C4BD;
+  position: relative;
 }
 /* Navigation
 -------------------------*/
